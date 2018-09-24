@@ -140,7 +140,7 @@ open class TextNode: Node {
     }
 
     static public func lastCharIsWhitespace(_ sb: StringBuilder) -> Bool {
-        return sb.toString().last == " "
+        return sb.lastChar() == " "
     }
 
     // attribute fiddling. create on first access.
