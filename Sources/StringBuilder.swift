@@ -130,6 +130,15 @@ open class StringBuilder {
         stringValue = Array()
         return self
     }
+    
+    /** 
+     Returns the last character of the underlying character array
+     :return: last character of the underlying character array
+    */
+    open func lastChar() -> Character? {
+        return stringValue.last
+    }
+
 }
 
 /**
